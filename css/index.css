@@ -1,0 +1,67 @@
+body{
+    background-color:orange;
+    
+}
+
+
+#cabecera{
+    background-color: rgb(141, 124, 124);
+    border: 1px solid white;
+}
+
+#subcabecera{
+    font-size: medium;
+    color: rgb(8, 8, 8);
+
+}
+#titulo_1{
+    font-size: large;
+    width: 25%;
+    background-color:brown;
+}
+
+#contaniner1{
+    width: 40%;
+    height: 50%;
+    border:2px solid black;
+}
+#titulo_2{
+    font-size: large;
+    background-color:brown;
+    width: 25%;
+}
+#contaniner2{
+width: 40%;
+height: 50%;
+border: 2px solid black;
+
+}
+/* Importante el sticky */
+#posicion{
+    width: 25%;
+
+   
+    background-color: brown;
+    font-size: large;
+    position:sticky;
+    bottom: 75%; left: 50%;
+}
+#datos{
+    width: 30%;
+    height: 25%;
+    border: 2px solid black;
+    position: absolute;
+    bottom:48% ; left: 50%;
+}
+#preferncias1{
+    font-size: large;
+    width: 25%;
+    background-color: brown;
+    position: absolute;/* importante comando */
+    bottom: 31%;left: 50%;
+}
+#prefrencias2{
+    background-color: orange;
+    font-size: medium;
+    border: 2px solid black;
+}
